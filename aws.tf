@@ -1,5 +1,6 @@
 # provider "aws" {aaaa
   this is a new code
+   some changes 
   region = "us-west-2"  # Specify the AWS region
 }
 
