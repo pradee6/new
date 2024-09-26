@@ -42,3 +42,4 @@ resource "aws_key_pair" "my_key" {
   public_key = file("~/.ssh/id_rsa.pub")  # Path to your public key
 }
 this is my last code
+some changes are not adopted
