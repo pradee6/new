@@ -1,0 +1,11 @@
+// Function to show a message when the button is clicked
+document.getElementById('magicButton').addEventListener('click', function() {
+    const responseMessage = document.getElementById('responseMessage');
+    
+    // Toggle the visibility of the response message
+    if (responseMessage.style.display === 'none') {
+        responseMessage.style.display = 'block';
+    } else {
+        responseMessage.style.display = 'none';
+    }
+});
